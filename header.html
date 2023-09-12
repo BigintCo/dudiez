@@ -1,0 +1,68 @@
+<header>
+    <div class="header-container">
+        <a href="index.html" class="logo ">
+            <img src="assets/img/logo.svg" alt="logo" height="45">
+        </a>
+        <nav class="navbar d-md-flex d-none ms-auto">
+            <ol class="nav">
+                <li><a href="index.html">main</a></li>
+                <li><a href="art.html">art</a></li>
+                <li><a href="roadmap.html">roadmap</a></li>
+                <li><a href="team.html">team</a></li>
+                <li><a href="https://dudiez.gitbook.io/dudiez/">about</a></li>
+
+                <!-- <li class="dropdown">
+                    <a href="javascript:;">Paketix ile Nasıl Çalışırım? <i class="bx bx-chevron-down fs-30"></i></a>
+                    <ol class="dropdown-content">
+                        <li><a href="#">
+                                <img class="pe-10" src="assets/img/bcylcle-icon.svg" alt="kuryeler icin">
+                                Kuryeler için</a></li>
+                        <li><a href="#">
+                                <img class="pe-10" src="assets/img/house-icon.svg" alt="Restoranlar icin">
+
+                                Restoranlar için</a></li>
+                    </ol>
+                </li> -->
+            </ol>
+        </nav>
+        <a class="mobile-menu d-md-none d-flex ms-auto ms-lg-3" href=""><i class="bx bx-menu"></i></a>
+    </div>
+</header>
+
+<div class="mobile-header d-block d-lg-none">
+    <a class="closer-btn" href="javascript:;"><i class="bx bx-x"></i></a>
+    <a href="index.html" class="logo ">
+        <img src="assets/img/logo.svg" alt="logo">
+    </a>
+    <ol class="mobile-nav">
+        <li><a href="index.html">main</a></li>
+        <li><a href="art.html">art</a></li>
+        <li><a href="roadmap.html">roadmap</a></li>
+        <li><a href="team.html">team</a></li>
+        <li><a href="https://dudiez.gitbook.io/dudiez/">about</a></li>
+
+        <!-- <li class="dropdown">
+            <a href="javascript:;">Hizmetlerimiz <i class="bx bx-chevron-down fs-30"></i></a>
+            <ol class="dropdown-content">
+                <li><a href="#">abc</a></li>
+                <li><a href="#">vca</a></li>
+                <li><a href="#">xtz</a></li>
+            </ol>
+        </li> -->
+    </ol>
+</div>
+
+<script>
+    // url eşitse header active class ekle
+    var url = window.location.pathname;
+    var filename = url.substring(url.lastIndexOf('/') + 1);
+    var activePage = filename;
+    $('.nav li a,.mobile-nav li a').each(function () {
+        var linkPage = this.href.substring(this.href.lastIndexOf('/') + 1);
+        // console.log(activePage);
+        // console.log(linkPage);
+        if (activePage == linkPage) {
+            $(this).addClass('active');
+        }
+    });
+</script>

@@ -1,0 +1,31 @@
+// Base
+@import "1-base/reset";
+@import "1-base/variables";
+@import "1-base/responsive";
+@import "1-base/settings";
+@import "1-base/typography";
+@import "1-base/helpers";
+@import "1-base/master";
+
+// Mixins
+@import "2-mixins/linksEffect";
+
+// Layout
+@import "3-layout/global";
+@import "3-layout/header";
+@import "3-layout/footer";
+
+// Components
+@import "4-components/buttons";
+
+// Modules
+@import "5-modules/page-title";
+
+// Pages
+@import "6-pages/index";
+// Performance
+@import "7-performance/performance";
+
+.morphext .animated {
+    display: inline-block;
+}
