@@ -8,7 +8,8 @@
   font-family: inherit;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -26,7 +27,8 @@ textarea {
   resize: none;
 }
 
-img, video {
+img,
+video {
   max-width: 100%;
   height: auto;
 }
@@ -1120,47 +1122,47 @@ table {
 }
 /* Opacity */
 .opacity-0 {
-  opacity: .0;
+  opacity: 0;
 }
 
 .opacity-1 {
-  opacity: .1;
+  opacity: 0.1;
 }
 
 .opacity-2 {
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .opacity-2 {
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .opacity-3 {
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .opacity-4 {
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .opacity-5 {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .opacity-6 {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .opacity-7 {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .opacity-8 {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .opacity-9 {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 /* Gaps sizes */
@@ -6134,7 +6136,7 @@ table {
 
 .contain {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .w-100 {
@@ -6157,19 +6159,19 @@ a {
 
 @media screen and (max-width: 1520px) {
   html,
-body {
+  body {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 1220px) {
   html,
-body {
+  body {
     font-size: 14px;
   }
 }
 @media (max-width: 575px) {
   html,
-body {
+  body {
     font-size: 12px;
   }
 }
@@ -6210,7 +6212,7 @@ header .logo {
 header .logo img {
   max-height: 55px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 @media (max-width: 991px) {
   header .logo img {
@@ -6387,7 +6389,7 @@ header .others-tool-wrap {
 .mobile-header .logo img {
   max-height: 40px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 @media (max-width: 575px) {
   .mobile-header {
@@ -6693,8 +6695,9 @@ main .second-layer {
   display: grid;
   row-gap: 75px;
   -moz-column-gap: 50px;
-       column-gap: 50px;
+  column-gap: 50px;
 }
+
 .team-grid .team-card {
   text-align: center;
 }
@@ -6746,7 +6749,7 @@ main .second-layer {
 @media (max-width: 575px) {
   .team-grid {
     -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
     row-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -6793,7 +6796,7 @@ main .second-layer {
   position: relative;
   height: 96vh;
   min-height: 720px;
-  max-height:760px;
+  max-height: 760px;
   margin: auto;
   max-width: 1800px;
   overflow: hidden;
@@ -6837,7 +6840,7 @@ main .second-layer {
   transform: translateX(-50%);
   bottom: 10vw;
 }
-.hero-animation-wrap .discover-our-roadmap{
+.hero-animation-wrap .discover-our-roadmap {
   position: absolute;
   z-index: 3;
   left: 50%;
@@ -6852,10 +6855,10 @@ main .second-layer {
   z-index: 3;
   min-height: 750px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 @media (max-width: 991px) {
-  .hero-animation-wrap .discover-our-roadmap{
+  .hero-animation-wrap .discover-our-roadmap {
     position: absolute;
     z-index: 3;
     left: 50%;
@@ -6895,7 +6898,7 @@ main .second-layer {
     z-index: 2;
     min-height: auto;
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
 }
 @media (max-width: 575px) {
@@ -6913,15 +6916,15 @@ body:not(.page-loaded) * {
 
 .morphext .animated {
   display: inline-block;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
 
-.negative-margin-bottom{
+.negative-margin-bottom {
   margin-top: -250px;
   z-index: 4;
   position: relative;
 }
-@media (max-width:980px){
-  .negative-margin-bottom{
+@media (max-width: 980px) {
+  .negative-margin-bottom {
     margin-top: -20px;
   }
 }
