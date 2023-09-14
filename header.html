@@ -5,11 +5,11 @@
         </a>
         <nav class="navbar d-md-flex d-none ms-auto">
             <ol class="nav">
-                <li><a href="index.html">main</a></li>
+                <li><a class="firstcl" href="index.html">main</a></li>
                 <li><a href="art.html">art</a></li>
                 <li><a href="roadmap.html">roadmap</a></li>
                 <li><a href="team.html">team</a></li>
-                <li><a href="https://dudiez.gitbook.io/dudiez/">about</a></li>
+                <li><a class="notactive" href="https://dudiez.gitbook.io/dudiez/">about</a></li>
 
                 <!-- <li class="dropdown">
                     <a href="javascript:;">Paketix ile Nasıl Çalışırım? <i class="bx bx-chevron-down fs-30"></i></a>
@@ -35,11 +35,11 @@
         <img src="assets/img/logo.svg" alt="logo">
     </a>
     <ol class="mobile-nav">
-        <li><a href="index.html">main</a></li>
+        <li><a class="firstcl" href="index.html">main</a></li>
         <li><a href="art.html">art</a></li>
         <li><a href="roadmap.html">roadmap</a></li>
         <li><a href="team.html">team</a></li>
-        <li><a href="https://dudiez.gitbook.io/dudiez/">about</a></li>
+        <li><a class="notactive" href="https://dudiez.gitbook.io/dudiez/">about</a></li>
 
         <!-- <li class="dropdown">
             <a href="javascript:;">Hizmetlerimiz <i class="bx bx-chevron-down fs-30"></i></a>
@@ -61,8 +61,16 @@
         var linkPage = this.href.substring(this.href.lastIndexOf('/') + 1);
         // console.log(activePage);
         // console.log(linkPage);
-        if (activePage == linkPage) {
-            $(this).addClass('active');
+        if (url != "/") {
+            if (!$(this).hasClass("notactive")) {
+                if (activePage == linkPage) {
+                    // hasclass
+                    $(this).addClass('active');
+                }
+            }
+        } else {
+            $(".firstcl").addClass("active");
         }
+
     });
 </script>
