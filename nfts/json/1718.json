@@ -1,0 +1,44 @@
+{
+  "name": "DudieZ #1718",
+  "description": "Bunch of DudieZ who broke their rope are ready to mess things up on zkSync! These fun and exclusive NFT characters are waiting for their new owners.",
+  "image": "https://dudiez.art/nfts/images/1718.png",
+  "dna": "2094651d396d954df8d7c71e0f421661aba3cc23",
+  "edition": 1718,
+  "date": 1705790404106,
+  "external_url": "https://dudies.art/",
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "Cosmic_Dreamscape"
+    },
+    {
+      "trait_type": "bodies",
+      "value": "Obsidian_Black_Organ"
+    },
+    {
+      "trait_type": "noses",
+      "value": "Neon_Nasal_Node"
+    },
+    {
+      "trait_type": "mouths",
+      "value": "Quantum_Sound_Chamber"
+    },
+    {
+      "trait_type": "eyes",
+      "value": "Liquid_Metal_Sclera"
+    },
+    {
+      "trait_type": "clothes",
+      "value": "Melancholic_Wardrobe"
+    },
+    {
+      "trait_type": "earrings",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "head equipment",
+      "value": "Digital_Dream_Diadem"
+    }
+  ],
+  "compiler": "DudieZ Art Engine"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "DudieZ #513",
+  "description": "Bunch of DudieZ who broke their rope are ready to mess things up on zkSync! These fun and exclusive NFT characters are waiting for their new owners.",
+  "image": "https://dudiez.art/nfts/images/513.png",
+  "dna": "e74f5252d107a06184009f1a612f0d362ae7746d",
+  "edition": 513,
+  "date": 1705789118271,
+  "external_url": "https://dudies.art/",
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "Neon_Nirvana"
+    },
+    {
+      "trait_type": "bodies",
+      "value": "Opal_White_Being"
+    },
+    {
+      "trait_type": "noses",
+      "value": "Neon_Nasal_Node"
+    },
+    {
+      "trait_type": "mouths",
+      "value": "Neon_Vocal_Gateway"
+    },
+    {
+      "trait_type": "eyes",
+      "value": "Digital_Circuitry_Cornea"
+    },
+    {
+      "trait_type": "clothes",
+      "value": "Grey_Skies_Clothing"
+    },
+    {
+      "trait_type": "earrings",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "head equipment",
+      "value": "Quantum_Helm_of_Wisdom"
+    }
+  ],
+  "compiler": "DudieZ Art Engine"
+}

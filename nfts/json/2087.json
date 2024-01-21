@@ -1,0 +1,44 @@
+{
+  "name": "DudieZ #2087",
+  "description": "Bunch of DudieZ who broke their rope are ready to mess things up on zkSync! These fun and exclusive NFT characters are waiting for their new owners.",
+  "image": "https://dudiez.art/nfts/images/2087.png",
+  "dna": "e23aa7fefe72777e50ea517fa1b89228f7b24d9f",
+  "edition": 2087,
+  "date": 1705790568101,
+  "external_url": "https://dudies.art/",
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "Neon_Nightfall"
+    },
+    {
+      "trait_type": "bodies",
+      "value": "Emerald_Green_Structure"
+    },
+    {
+      "trait_type": "noses",
+      "value": "Neon_Nasal_Node"
+    },
+    {
+      "trait_type": "mouths",
+      "value": "Cyber_Sonic_Maw"
+    },
+    {
+      "trait_type": "eyes",
+      "value": "Heterochromia"
+    },
+    {
+      "trait_type": "clothes",
+      "value": "Gloomy_Day_Garb"
+    },
+    {
+      "trait_type": "earrings",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "head equipment",
+      "value": "Neon_Nexus_Headgear"
+    }
+  ],
+  "compiler": "DudieZ Art Engine"
+}
